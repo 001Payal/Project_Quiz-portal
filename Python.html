@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+        <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"> Python Quiz</h1>
+          </div>
+
+    <form id="form1">
+
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">1. What is output of :<br>
+                33 == 33.0
+            </h1>
+        </div>
+        <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" /> False</label> <br>
+        <label for="var_join"><input type="radio" name="variable" value="10" id="var_join" /> True</label><br>
+        <label for="var_info"><input type="radio" name="variable" value="0" id="var_info" /> 33</label><br>
+        <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/> None of the above</label><br>
+
+0
+            
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+        <h1 class="title-font font-medium text-xl text-gray-900">2. Which of the following is false statement in python.
+        </h1>
+        </div>
+
+        <label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/> int(144)==144 </label><br>
+        <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/> int('144')==144</label><br>
+        <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" /> int(144.0)==144</label><br>
+        <label for="sub_condition"><input type="radio" name="sub" value="10" id="sub_condition" /> None of the above</label><br>
+        
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">3. Which operator is right-associative.
+            </h1>
+            </div>
+
+        <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" /> * </label><br> 
+        <label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" /> = </label><br>
+        <label for="cat_info"><input type="radio" name="con" value="10" id="cat_info" /> + </label><br>
+        <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" /> % </label><br>
+
+
+        
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">4. What is output of following code :<br>
+
+                s = ''mnopqr ''<br>
+                i = ''m ''<br>
+                while i in s:<br>
+                   print('i', end= '' '')
+            </h1>
+            </div>
+    
+    <label for="hello_string"><input type="radio" name="hello" value="10" id="hello_string" /> i i i i i i i i……. </label><br>
+        <label for="hello_join"><input type="radio" name="hello" value="0" id="hello_join" /> m m m m m ….. </label><br>
+        <label for="hello_info"><input type="radio" name="hello" value="0" id="hello_info" /> m n o p q r </label><br>
+        <label for="hello_condition"><input type="radio" name="hello"  value="0" id="hello_condition" /> no output</label><br>
+
+
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">5. What is output of following :
+
+                print('any'.encode()
+            </h1>
+            </div>
+
+        <label for="to_string"><input type="radio" name="to" value="0" id="to_string" /> ‘any’</label><br>
+        <label for="to_join"><input type="radio" name="to" value="0" id="to_join" /> ‘yan’</label><br>
+        <label for="to_info"><input type="radio" name="to" value="10" id="to_info" /> b ‘any’</label><br>
+        <label for="to_condition"><input type="radio" name="to"  value="0" id="to_condition" /> x‘any’</label><br>
+
+
+
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">6. Analyze the given below code? <br>
+
+                class Demo: <br>
+                   def init(self,d): <br>
+                      self.d=d <br>
+                   def print(self): <br>
+                      print(d)  <br>
+                a = Demo(''Hello'') <br>
+                a.print()
+            </div>
+
+        <label for="hi_string"><input type="radio" name="hi" value="0" id="hi_string" /> You cannot use print(self) as a function name</label><br>
+        <label for="hi_join"><input type="radio" name="hi" value="0" id="hi_join" /> Program has an error because class A does not have a constructor. </label><br>
+        <label for="hi_info"><input type="radio" name="hi" value="10" id="hi_info" /> Program will print ‘Hello’ if we change print(d) to print(self.d).</label><br>
+        <label for="hi_condition"><input type="radio" name="hi"  value="0" id="hi_condition" /> Syntax Error.</label><br>
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">7. Which options are correct to create an empty set in Python?
+            </h1>
+            </div>
+
+        <label for="hey_string"><input type="radio" name="hey" value="0" id="hey_string" /> {}</label><br>
+        <label for="hey_join"><input type="radio" name="hey" value="0" id="hey_join" /> () </label><br>
+        <label for="hey_info"><input type="radio" name="hey" value="0" id="hey_info" /> []</label><br>
+        <label for="hey_condition"><input type="radio" name="hey"  value="10" id="hey_condition" /> set()</label><br>
+
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">8. Which method is used to convert raw byte data to a string?
+            </h1>
+            </div>
+        <label for="dog_string"><input type="radio" name="dog" value="0" id="dog_string" /> Encode()</label><br>
+        <label for="dog_join"><input type="radio" name="dog" value="10" id="dog_join" /> Decode()</label><br>
+        <label for="dog_info"><input type="radio" name="dog" value="0" id="dog_info" /> Convert()</label><br>
+        <label for="dog_condition"><input type="radio" name="dog"  value="0" id="dog_condition" /> tostring()</label><br>
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">9. Who developed Python Programming Language?
+            </h1>
+            </div>
+        <label for="bye_string"><input type="radio" name="bye" value="0" id="bye_string" /> Wick van Rossum</label><br>
+        <label for="bye_join"><input type="radio" name="bye" value="0" id="bye_join" /> Rasmus Lerdorf</label><br>
+        <label for="bye_info"><input type="radio" name="bye" value="10" id="bye_info" /> Guido van Rossum</label><br>
+        <label for="bye_condition"><input type="radio" name="bye"  value="0" id="bye_condition" /> Niene Stom</label><br>
+
+
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">10. Which module is used in python to create Graphics?
+            </h1>
+            </div>
+        <label for="ho_string"><input type="radio" name="ho" value="10" id="ho_string" /> Turtle</label><br>
+        <label for="ho_join"><input type="radio" name="ho" value="0" id="ho_join" /> canavs</label><br>
+        <label for="ho_info"><input type="radio" name="ho" value="0" id="ho_info" /> Tkinter</label><br>
+        <label for="ho_condition"><input type="radio" name="ho"  value="0" id="ho_condition" /> Graphics</label><br>
+    
+
+
+        
+            <br><button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit" value="Submit">Submit</button><br> 
+        
+        </form>
+        <br>        
+        <hr>
+        <br><div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-xl text-gray-900">Your grade is: <span id="grade">__</span></h1>
+            </div>
+
+            
+            <a href="Selectcourse.html">
+                <br><button class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Next Quiz</button><br>
+     </a>
+
+        <script>
+            document.getElementById("form1").onsubmit=function() {
+                   variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+                   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+                   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
+                   hello = parseInt(document.querySelector('input[name = "hello"]:checked').value);
+                   to = parseInt(document.querySelector('input[name = "to"]:checked').value);
+                   hi = parseInt(document.querySelector('input[name = "hi"]:checked').value);
+                   hey = parseInt(document.querySelector('input[name = "hey"]:checked').value);
+                   dog = parseInt(document.querySelector('input[name = "dog"]:checked').value);
+                   bye = parseInt(document.querySelector('input[name = "bye"]:checked').value);
+                   ho = parseInt(document.querySelector('input[name = "ho"]:checked').value);
+            
+            
+                   result = variable + sub + con + hello + to+ hi + hey + dog + bye + ho;
+            
+                document.getElementById("grade").innerHTML = result;
+            
+            
+            
+            return false;
+            } 
+            
+            </script>
+            
+            
+</body>
+</html>
